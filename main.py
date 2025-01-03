@@ -15,7 +15,7 @@ def get_greeting():
     if 5 <= current_hour < 12:
         greeting = "Good Morning ☀️"
     elif 12 <= current_hour < 17:
-        greeting = "Good Afternoon🕛🏙️"
+        greeting = "Good Afternoon🏙️"
     elif 17 <= current_hour < 21:
         greeting = "Good Evening🌃"
     else:
